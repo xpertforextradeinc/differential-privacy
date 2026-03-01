@@ -3,10 +3,9 @@ module github.com/google/differential-privacy/examples/go
 go 1.22
 
 require (
-	github.com/golang/glog v1.2.0
+	github.com/golang/glog v1.2.4
 	github.com/google/differential-privacy/go/v4 v4.0.0
 )
-
 
 // Use the current version of the Go DP Library.
 replace github.com/google/differential-privacy/go/v4 => ../../go
